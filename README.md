@@ -40,7 +40,7 @@ This section provides a categorized collection of essential Linux commands with 
 
 ---
 
-# 📦 1. Package Management
+## 📦 1. Package Management
 
 Package management commands are used to install, update, upgrade, remove, and manage software packages on Linux systems.
 
@@ -53,7 +53,7 @@ Package management commands are used to install, update, upgrade, remove, and ma
 | `yum` | Package manager used in older RHEL, CentOS, and Fedora systems to manage software packages. | `sudo yum update` |
 | `rpm` | Installs, verifies, queries, and removes RPM packages on Red Hat-based Linux distributions. | `rpm -i package.rpm` |
 
-# 📁 2. Navigation & File Management
+## 📁 2. Navigation & File Management
 
 These commands are used to navigate the filesystem and perform common file and directory operations.
 
@@ -75,7 +75,7 @@ These commands are used to navigate the filesystem and perform common file and d
 | `file` | Identifies the actual file type regardless of its extension. | `file shell` |
 | `dd` | Copies and converts data at the block level. Commonly used for creating disk images and bootable USB drives. | `dd if=/dev/sda of=backup.img` |
 
-# 📄 3. Text Processing & Viewing
+## 📄 3. Text Processing & Viewing
 
 These commands help you view, search, compare, edit, and manipulate text files directly from the terminal.
 
@@ -94,7 +94,7 @@ These commands help you view, search, compare, edit, and manipulate text files d
 | `comm` | Compares two sorted files and displays unique and common lines. | `comm a.txt b.txt` |
 | `sort` | Sorts lines in a file alphabetically or numerically. | `sort names.txt` |
 
-# 👤 4. User & Permission Management
+## 👤 4. User & Permission Management
 
 These commands are used to manage users, groups, permissions, ownership, and administrative privileges.
 
@@ -110,7 +110,7 @@ These commands are used to manage users, groups, permissions, ownership, and adm
 | `chmod` | Changes file or directory permissions. | `chmod 755 script.sh` |
 | `chown` | Changes the ownership of a file or directory. | `chown root file.txt` |
 
-# 🌐 5. Networking & Firewalls
+## 🌐 5. Networking & Firewalls
 
 These commands are used to configure, troubleshoot, and secure network connections.
 
@@ -131,7 +131,7 @@ These commands are used to configure, troubleshoot, and secure network connectio
 | `ufw` | Manages firewall rules using Uncomplicated Firewall. | `sudo ufw enable` |
 | `iptables` | Configures advanced Linux firewall and packet filtering rules. | `sudo iptables -L` |
 
-# ⚙️ 6. Process & System Information
+## ⚙️ 6. Process & System Information
 
 These commands help monitor running processes, manage system services, and display system information.
 
@@ -151,7 +151,7 @@ These commands help monitor running processes, manage system services, and displ
 | `man` | Opens the manual page for a command. | `man ls` |
 | `whatis` | Displays a brief one-line description of a command. | `whatis nmap` |
 
-# 💾 7. Storage, Archive & Compression
+## 💾 7. Storage, Archive & Compression
 
 These commands help manage storage devices, mount filesystems, and create or extract archives.
 
@@ -164,7 +164,7 @@ These commands help manage storage devices, mount filesystems, and create or ext
 | `zip` | Compresses files and directories into a ZIP archive. | `zip files.zip file1.txt` |
 | `unzip` | Extracts files from a ZIP archive. | `unzip files.zip` |
 
-# 🛡️ 8. Security Tools
+## 🛡️ 8. Security Tools
 
 These are common cybersecurity and penetration testing tools frequently used in Kali Linux.
 
@@ -180,7 +180,7 @@ These are common cybersecurity and penetration testing tools frequently used in 
 | `gobuster` | Discovers hidden directories, files, virtual hosts, or DNS subdomains using wordlists. | `gobuster dir -u http://site.com -w wordlist.txt` |
 | `wireshark` | Launches Wireshark for capturing and analyzing network traffic. | `wireshark` |
 
-# 📂 9. Linux System Directories
+## 📂 9. Linux System Directories
 
 Understanding the Linux filesystem is essential for system administration and cybersecurity.
 
