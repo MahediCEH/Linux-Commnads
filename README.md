@@ -63,8 +63,10 @@ These commands are used to navigate the filesystem and perform common file and d
 | `ls -la` | Lists all files and directories, including hidden files, in a detailed long format. | `ls -la` |
 | `cd` | Changes the current working directory to another location. | `cd /Downloads` |
 | `cp` | Copies one or more files or directories to another location. | `cp test.txt /Documents` |
-| `mv` | Moves or renames files and directories. | `mv old.txt new.txt` |
-| `rm` | Removes files or directories permanently. Use with caution. | `rm -rf test/` |
+| `mv` | Moves files and directories. | `sudo mv file.txt /Downloads` |
+| `mv` | Renames files and directories. | `sudo mv old.txt new.txt` |
+| `rm` | Removes files permanently. Use with caution. | `rm file.txt` |
+| `rm -rf` | Removes directories permanently. Use with caution. | `rm -rf DirectoryName` |
 | `mkdir` | Creates a new directory. | `mkdir myfolder` |
 | `touch` | Creates a new empty file or updates the timestamp of an existing file. | `touch hello.txt` |
 | `ln` | Creates hard links or symbolic links (shortcuts) between files. | `ln -s /opt/app app` |
