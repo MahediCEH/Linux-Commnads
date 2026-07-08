@@ -25,12 +25,12 @@ Rather than simply memorizing commands, my goal is to understand:
 #### 📦 Package Management
 #### 📁 Navigation & File Management
 #### 📄 Text Processing
-### 👤 User & Permissions
-### 🌐 Networking
-### ⚙️ System Monitoring
-### 💾 Storage & Archives
-### 🛡️ Security Tools
-### 📂 Linux Directory Structure
+#### 👤 User & Permissions
+#### 🌐 Networking
+#### ⚙️ System Monitoring
+#### 💾 Storage & Archives
+#### 🛡️ Security Tools
+#### 📂 Linux Directory Structure
 
 Let's deep dive.....
 
