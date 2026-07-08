@@ -59,9 +59,10 @@ These commands are used to navigate the filesystem and perform common file and d
 | Command | Description | Example |
 |---------|-------------|---------|
 | `pwd` | Displays the full path of the current working directory. | `pwd` |
-| `ls` | Lists files and directories in the current location. | `ls -la` |
-| `cd` | Changes the current working directory to another location. | `cd /var/www/html` |
-| `cp` | Copies one or more files or directories to another location. | `cp file.txt /tmp/` |
+| `ls` | Lists files and directories in the current location. | `ls` |
+| `ls -la` | Lists all files and directories, including hidden files, in a detailed long format. | `ls -la` |
+| `cd` | Changes the current working directory to another location. | `cd /Downloads` |
+| `cp` | Copies one or more files or directories to another location. | `cp test.txt /Documents` |
 | `mv` | Moves or renames files and directories. | `mv old.txt new.txt` |
 | `rm` | Removes files or directories permanently. Use with caution. | `rm -rf test/` |
 | `mkdir` | Creates a new directory. | `mkdir myfolder` |
