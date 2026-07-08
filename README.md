@@ -31,7 +31,7 @@ Rather than simply memorizing commands, my goal is to understand:
 #### 💾 Storage & Archives
 #### 🛡️ Security Tools
 #### 📂 Linux Directory Structure
-- [📦 Package Management](#-1-package-management)
+#### [📦 Package Management](#-1-package-management)
 - [📁 Navigation & File Management](#-2-navigation--file-management)
 - [📄 Text Processing & Viewing](#-3-text-processing--viewing)
 - [👤 User & Permission Management](#-4-user--permission-management)
