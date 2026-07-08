@@ -49,9 +49,6 @@ Package management commands are used to install, update, upgrade, remove, and ma
 | `apt update` | Updates the local package index from the configured repositories. It does not install or upgrade any packages. | `sudo apt update` |
 | `apt upgrade -y` | Upgrades all installed packages to their latest available versions without asking for confirmation. | `sudo apt upgrade -y` |
 | `apt` | Debian-based package manager used to install, remove, search, and manage software packages. | `sudo apt install git` |
-| `pacman` | Default package manager for Arch Linux and its derivatives. It installs, updates, removes, and manages packages. | `sudo pacman -Syu` |
-| `yum` | Package manager used in older RHEL, CentOS, and Fedora systems to manage software packages. | `sudo yum update` |
-| `rpm` | Installs, verifies, queries, and removes RPM packages on Red Hat-based Linux distributions. | `rpm -i package.rpm` |
 
 ---
 
