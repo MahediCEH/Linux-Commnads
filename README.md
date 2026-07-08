@@ -47,7 +47,7 @@ Package management commands are used to install, update, upgrade, remove, and ma
 | Command | Description | Example |
 |---------|-------------|---------|
 | `apt update` | Updates the local package index from the configured repositories. It does not install or upgrade any packages. | `sudo apt update` |
-| `apt upgrade -y` | Upgrades all installed packages to their latest available versions without asking for confirmation. | `sudo apt upgrade -y` |
+| `apt upgrade` | Upgrades all installed packages to their latest available versions without asking for confirmation. | `sudo apt upgrade -y` |
 | `apt` | Debian-based package manager used to install, remove, search, and manage software packages. | `sudo apt install git` |
 
 ---
