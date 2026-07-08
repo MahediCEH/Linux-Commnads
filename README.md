@@ -22,9 +22,9 @@ Rather than simply memorizing commands, my goal is to understand:
 
 ## 📚 Topics Covered
 
-# 📦 Package Management
-# 📁 Navigation & File Management
-### 📄 Text Processing
+#### 📦 Package Management
+#### 📁 Navigation & File Management
+#### 📄 Text Processing
 ### 👤 User & Permissions
 ### 🌐 Networking
 ### ⚙️ System Monitoring
