@@ -191,12 +191,6 @@ Understanding the Linux filesystem is essential for system administration and cy
 
 ---
 
-## 📜 Handbook Preview
-
-Click the image below to view the complete handbook.
-
----
-
 ## 🎯 Purpose
 
 This project is part of my cybersecurity learning journey.
