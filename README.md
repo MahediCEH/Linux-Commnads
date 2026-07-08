@@ -31,8 +31,23 @@ Rather than simply memorizing commands, my goal is to understand:
 #### 💾 Storage & Archives
 #### 🛡️ Security Tools
 #### 📂 Linux Directory Structure
+- [📦 Package Management](#-1-package-management)
+- [📁 Navigation & File Management](#-2-navigation--file-management)
+- [📄 Text Processing & Viewing](#-3-text-processing--viewing)
+- [👤 User & Permission Management](#-4-user--permission-management)
+- [🌐 Networking & Firewalls](#-5-networking--firewalls)
+- [⚙️ Process & System Information](#-6-process--system-information)
+- [💾 Storage, Archive & Compression](#-7-storage-archive--compression)
+- [🛡️ Security Tools](#-8-security-tools)
+- [📂 Linux System Directories](#-9-linux-system-directories)
 
-Let's deep dive.....
+---
+
+## Command Reference
+
+This section provides a categorized collection of essential Linux commands with concise descriptions and practical examples. Use it as a quick reference while learning Linux or working in cybersecurity.
+
+---
 
 # 📦 1. Package Management
 
