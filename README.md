@@ -22,24 +22,15 @@ Rather than simply memorizing commands, my goal is to understand:
 
 ## 📚 Topics Covered
 
-#### 📦 Package Management
-#### 📁 Navigation & File Management
-#### 📄 Text Processing
-#### 👤 User & Permissions
-#### 🌐 Networking
-#### ⚙️ System Monitoring
-#### 💾 Storage & Archives
-#### 🛡️ Security Tools
-#### 📂 Linux Directory Structure
 #### [📦 Package Management](#-1-package-management)
-- [📁 Navigation & File Management](#-2-navigation--file-management)
-- [📄 Text Processing & Viewing](#-3-text-processing--viewing)
-- [👤 User & Permission Management](#-4-user--permission-management)
-- [🌐 Networking & Firewalls](#-5-networking--firewalls)
-- [⚙️ Process & System Information](#-6-process--system-information)
-- [💾 Storage, Archive & Compression](#-7-storage-archive--compression)
-- [🛡️ Security Tools](#-8-security-tools)
-- [📂 Linux System Directories](#-9-linux-system-directories)
+#### [📁 Navigation & File Management](#-2-navigation--file-management)
+#### [📄 Text Processing & Viewing](#-3-text-processing--viewing)
+#### [👤 User & Permission Management](#-4-user--permission-management)
+#### [🌐 Networking & Firewalls](#-5-networking--firewalls)
+#### [⚙️ Process & System Information](#-6-process--system-information)
+#### [💾 Storage, Archive & Compression](#-7-storage-archive--compression)
+#### [🛡️ Security Tools](#-8-security-tools)
+#### [📂 Linux System Directories](#-9-linux-system-directories)
 
 ---
 
