@@ -89,10 +89,7 @@ These commands help you view, search, compare, edit, and manipulate text files d
 | `tail` | Views the end of a file. Most commonly used with -f to monitor log files in real time as new entries are added. | `tail log.txt` |
 | `grep` | Searches for text or patterns within files using regular expressions. | `grep "admin" config.php` |
 | `nano` | Opens the Nano terminal text editor for creating or editing files. | `nano config.txt` |
-| `echo` | Prints text or variable values to the terminal or writes them to a file. | `echo "Hello World"` |
-| `diff` | Compares two files line by line and displays their differences. | `diff a.txt b.txt` |
-| `cmp` | Compares two files byte by byte and reports the first difference found. | `cmp a.txt b.txt` |
-| `comm` | Compares two sorted files and displays unique and common lines. | `comm a.txt b.txt` |
+| `echo` | Prints text or variable values to the terminal or writes them to a file. | `echo "Hello World" >>file.txt` |
 | `sort` | Sorts lines in a file alphabetically or numerically. | `sort names.txt` |
 
 ---
