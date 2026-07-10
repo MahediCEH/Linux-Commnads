@@ -109,6 +109,8 @@ These commands are used to manage users, groups, permissions, ownership, and adm
 | `passwd` | Creates or changes a user's password. | `passwd user` |
 | `chmod` | Changes file or directory permissions. | `chmod 755 script.sh` |
 | `chown` | Changes the ownership of a file or directory. | `chown root file.txt` |
+| `cut -d: -f1 /etc/passwd` | Show total users of the system. | `cut -d: -f1 /etc/passwd` |
+| `userdel` | Delete any user account, except the currently logged-in user or accounts that are actively in use.. | `sudo userdel username` |
 
 ---
 
