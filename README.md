@@ -69,13 +69,12 @@ These commands are used to navigate the filesystem and perform common file and d
 | `rm -rf` | Removes directories permanently. Use with caution. | `rm -rf DirectoryName` |
 | `mkdir` | Creates a new directory. | `mkdir myfolder` |
 | `touch` | Creates a new empty file or updates the timestamp of an existing file. | `touch hello.txt` |
-| `ln` | Creates hard links or symbolic links (shortcuts) between files. | `ln -s /opt/app app` |
+| `ln` | Creates hard links or symbolic links (shortcuts) between files. | `ln me.txt me2.txt` |
 | `find` | Searches for files and directories based on name, type, size, permissions, or other criteria. | `find / -name "*.php"` |
 | `locate` | Quickly finds files using a pre-built database. | `locate php.ini` |
 | `which` | Displays the location of an executable command in the system's PATH. | `which python3` |
 | `whereis` | Shows the binary, source code, and manual page locations of a command. | `whereis ssh` |
 | `file` | Identifies the actual file type regardless of its extension. | `file shell` |
-| `dd` | Copies and converts data at the block level. Commonly used for creating disk images and bootable USB drives. | `dd if=/dev/sda of=backup.img` |
 
 ---
 
@@ -87,7 +86,6 @@ These commands help you view, search, compare, edit, and manipulate text files d
 |---------|-------------|---------|
 | `cat` | Displays the entire contents of a file in the terminal. | `cat /etc/passwd` |
 | `less` | Opens a file for interactive viewing, allowing you to scroll forward and backward. Ideal for large files. | `less access.log` |
-| `head` | Displays the first 10 lines of a file by default. | `head file.txt` |
 | `tail` | Displays the last 10 lines of a file by default. | `tail log.txt` |
 | `grep` | Searches for text or patterns within files using regular expressions. | `grep "admin" config.php` |
 | `nano` | Opens the Nano terminal text editor for creating or editing files. | `nano config.txt` |
