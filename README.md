@@ -144,7 +144,7 @@ These commands help monitor running processes, manage system services, and displ
 | Command | Description | Example |
 |---------|-------------|---------|
 | `ps aux` | Displays detailed information about all running processes on the system. | `ps aux \| grep apache` |
-| `top` | Shows a real-time view of running processes, CPU usage, memory usage, and system performance. | `top` |
+| `htop` | Shows a real-time view of running processes (to get the process ID), CPU usage, memory usage, and system performance. | `htop` |
 | `kill` | Terminates a running process using its Process ID (PID). | `kill 1234` |
 | `killall` | Terminates all processes with the specified name. | `killall firefox` |
 | `service` | Starts, stops, restarts, or checks the status of a system service. | `service ssh status` |
@@ -152,7 +152,6 @@ These commands help monitor running processes, manage system services, and displ
 | `env` | Displays all current environment variables. | `env` |
 | `export` | Creates or exports environment variables for the current shell session. | `export VAR=value` |
 | `history` | Displays the list of previously executed commands. | `history \| grep nmap` |
-| `cal` | Displays a calendar in the terminal. | `cal` |
 | `alias` | Creates a shortcut for a command or command sequence. | `alias ll='ls -la'` |
 | `man` | Opens the manual page for a command. | `man ls` |
 | `whatis` | Displays a brief one-line description of a command. | `whatis nmap` |
