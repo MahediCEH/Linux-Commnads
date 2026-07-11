@@ -167,7 +167,7 @@ These commands help manage storage devices, mount filesystems, and create or ext
 | `df` | Displays disk space usage for mounted filesystems in a human-readable format. | `df -h` |
 | `mount` | Mounts a storage device or filesystem to a directory. | `mount /dev/sdb1 /mnt` |
 | `vmhgfs-fuse` | Mounts a VMware shared folder inside a Linux virtual machine. | `sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other` |
-| `tar` | Creates, extracts, or manages `.tar` archive files. | `tar -xvf file.tar` |
+| `tar` | Creates, extracts, or manages `.tar` archive files. | `tar -xvzf file.tar (extract), tar -czf backup.tar.gz Project/  (create zip)` |
 | `zip` | Compresses files and directories into a ZIP archive. | `zip files.zip file1.txt` |
 | `unzip` | Extracts files from a ZIP archive. | `unzip files.zip` |
 
