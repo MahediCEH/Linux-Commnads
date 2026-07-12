@@ -31,6 +31,7 @@ Rather than simply memorizing commands, my goal is to understand:
 #### [💾 Storage, Archive & Compression](#-7-storage-archive--compression)
 #### [🛡️ Security Tools](#-8-security-tools)
 #### [📂 Linux System Directories](#-9-linux-system-directories)
+#### [🖥️ General Linux Commands](#-10-general-linux-commands)
 
 ---
 
@@ -199,6 +200,32 @@ Understanding the Linux filesystem is essential for system administration and cy
 |-----------|-------------|
 | `/usr/bin` | Contains most executable programs and standard user commands available to all users. |
 | `/usr/local/bin` | Stores locally installed or manually compiled executable programs that are not managed by the system package manager. |
+
+---
+
+## 🖥️ 10. General Linux Commands
+
+These commands are commonly used for everyday Linux tasks, including terminal management, system information, command history, and user session monitoring.
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `clear` | Clears the terminal screen without deleting command history. You can also press **Ctrl + L** to achieve the same result. | `clear` or `Ctrl + L` |
+| `reset` | Resets the terminal to its default state, useful when the terminal becomes corrupted or unreadable. | `reset` |
+| `exit` | Closes the current terminal session or exits the active shell. | `exit` |
+| `reboot` | Restarts the Linux system safely. Root or sudo privileges are usually required. | `sudo reboot` |
+| `shutdown` | Powers off the system safely after stopping running services. | `sudo shutdown now` |
+| `history` | Displays the list of previously executed commands. | `history` |
+| `history \| grep` | Searches the command history for a specific keyword or command. | `history \| grep ssh` |
+| `!!` | Repeats the most recently executed command. | `!!` |
+| `!123` | Executes the command with history number **123**. Replace `123` with the desired history number. | `!123` |
+| `stat` | Displays detailed information about a file or directory, including size, permissions, timestamps, and ownership. | `stat file.txt` |
+| `tree` | Displays files and directories in a tree-like hierarchical structure. | `tree -L 2` |
+| `hostname` | Displays the system's hostname. | `hostname` |
+| `hostnamectl` | Displays or manages the system hostname and related operating system information. | `hostnamectl` |
+| `arch` | Displays the system's CPU architecture (for example, `x86_64`). | `arch` |
+| `users` | Displays the usernames of users currently logged into the system. | `users` |
+| `who` | Displays information about users currently logged in, including terminal sessions and login times. | `who` |
+| `last` | Displays the login history of users by reading the system's login records. | `last` |
 
 ---
 
