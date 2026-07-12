@@ -196,6 +196,43 @@ These are common cybersecurity and penetration testing tools frequently used in 
 | `dirb` | Performs directory and file brute-force scanning on web servers. | `dirb http://target.com` |
 | `gobuster` | Discovers hidden directories, files, virtual hosts, or DNS subdomains using wordlists. | `gobuster dir -u http://site.com -w wordlist.txt` |
 | `wireshark` | Launches Wireshark for capturing and analyzing network traffic. | `wireshark` |
+| `searchsploit` | Searches the local Exploit Database for publicly known exploits. Useful for finding exploits related to specific software versions. | `searchsploit apache 2.4` |
+| `whatweb` | Identifies the technologies used by a website, such as its CMS, framework, server, and programming language. | `whatweb https://example.com` |
+| `wafw00f` | Detects whether a website is protected by a Web Application Firewall (WAF). Helps identify security protections before testing. | `wafw00f https://example.com` |
+| `ffuf` | Discovers hidden files, directories, virtual hosts, or parameters using wordlists. Commonly used during web application reconnaissance. | `ffuf -u https://example.com/FUZZ -w /usr/share/wordlists/dirb/common.txt` |
+| `feroxbuster` | Recursively searches for hidden files and directories on web servers. Great for content discovery during security testing. | `feroxbuster -u https://example.com` |
+| `enum4linux` | Collects information from Windows or SMB systems, including users, groups, and shared folders. | `enum4linux -a 192.168.1.10` |
+| `smbclient` | Connects to Windows SMB file shares to browse, upload, or download files. | `smbclient //192.168.1.10/share` |
+| `smbmap` | Lists available SMB shares and checks their access permissions on a remote Windows system. | `smbmap -H 192.168.1.10` |
+| `netexec` | Performs enumeration and authentication testing against Windows and Active Directory environments. Formerly known as CrackMapExec. | `netexec smb 192.168.1.10` |
+| `responder` | Captures authentication hashes on local networks by responding to common Windows name resolution requests. Use only in authorized environments. | `sudo responder -I eth0` |
+| `impacket-*` | A collection of Python tools for interacting with Windows protocols and Active Directory services. | `impacket-psexec administrator@192.168.1.10` |
+| `evil-winrm` | Opens a remote PowerShell session on a Windows machine using the WinRM service. | `evil-winrm -i 192.168.1.10 -u administrator -p Password123` |
+| `bloodhound` | Maps relationships in Active Directory to help identify privilege escalation paths. | `bloodhound` |
+| `certipy` | Finds and tests Active Directory Certificate Services (AD CS) for configuration issues. | `certipy find -u user -p password -dc-ip 192.168.1.10` |
+| `amass` | Discovers subdomains using passive and active reconnaissance techniques. | `amass enum -d example.com` |
+| `subfinder` | Quickly finds subdomains from public sources. Ideal for reconnaissance. | `subfinder -d example.com` |
+| `dnsrecon` | Performs DNS enumeration to gather information about a domain and test DNS configurations. | `dnsrecon -d example.com` |
+| `theHarvester` | Collects emails, hosts, IP addresses, and subdomains from public sources for OSINT. | `theHarvester -d example.com -b all` |
+| `recon-ng` | A modular framework that automates Open Source Intelligence (OSINT) gathering. | `recon-ng` |
+| `maltego` | A graphical OSINT tool used to visualize relationships between people, domains, emails, and other entities. | `maltego` |
+| `masscan` | Extremely fast port scanner designed to scan large networks in a short time. | `masscan 192.168.1.0/24 -p80,443` |
+| `nuclei` | Scans targets for known vulnerabilities using community-maintained templates. | `nuclei -u https://example.com` |
+| `httpx` | Checks whether web servers are alive and collects information about HTTP and HTTPS services. | `httpx -u https://example.com` |
+| `exiftool` | Displays and edits metadata stored in images, documents, videos, and other files. | `exiftool image.jpg` |
+| `binwalk` | Analyzes firmware files and extracts embedded files or compressed data. | `binwalk firmware.bin` |
+| `foremost` | Recovers deleted files from disk images using file carving techniques. | `foremost image.dd` |
+| `steghide` | Hides or extracts secret data inside image and audio files using steganography. | `steghide extract -sf image.jpg` |
+| `volatility3` | Analyzes memory dumps to investigate malware, running processes, and other forensic evidence. | `vol.py -f memory.raw windows.info` |
+| `autopsy` | A graphical digital forensics platform for analyzing disk images and investigating evidence. | `autopsy` |
+| `hashid` | Identifies the most likely algorithm used to generate a hash value. | `hashid 5f4dcc3b5aa765d61d8327deb882cf99` |
+| `crunch` | Creates custom password wordlists based on specified length and character sets. | `crunch 8 8 abc123` |
+| `cewl` | Crawls a website and builds a custom wordlist from the words it finds. | `cewl https://example.com -w words.txt` |
+| `medusa` | Performs password auditing against various network services using username and password lists. | `medusa -h 192.168.1.10 -u admin -P passwords.txt -M ssh` |
+| `bettercap` | A network attack framework used for tasks such as packet sniffing, spoofing, and Man-in-the-Middle testing. Use only with authorization. | `sudo bettercap -iface eth0` |
+| `ettercap` | Performs Man-in-the-Middle (MITM) attacks for testing the security of local networks. | `sudo ettercap -G` |
+| `aircrack-ng` | A suite of tools used to assess the security of Wi-Fi networks. | `aircrack-ng capture.cap` |
+| `hashcat` | A high-performance password recovery tool that cracks password hashes using CPUs or GPUs. | `hashcat -m 0 hashes.txt rockyou.txt` |
 
 ---
 
