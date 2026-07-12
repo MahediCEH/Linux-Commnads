@@ -151,7 +151,6 @@ These commands help monitor running processes, manage system services, and displ
 | `uname -a` | Displays detailed information about the Linux kernel, system architecture, and hostname. | `uname -a` |
 | `env` | Displays all current environment variables. | `env` |
 | `export` | Creates or exports environment variables for the current shell session. | `export VAR=value` |
-| `history` | Displays the list of previously executed commands. | `history \| grep nmap` |
 | `alias` | Creates a shortcut for a command or command sequence. | `alias ll='ls -la'` |
 | `man` | Opens the manual page for a command. | `man ls` |
 | `whatis` | Displays a brief one-line description of a command. | `whatis nmap` |
