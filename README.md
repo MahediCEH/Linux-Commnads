@@ -92,6 +92,12 @@ These commands help you view, search, compare, edit, and manipulate text files d
 | `nano` | Opens the Nano terminal text editor for creating or editing files. | `nano config.txt` |
 | `echo` | Prints text or variable values to the terminal or writes them to a file. | `echo "Hello World" >>file.txt` |
 | `sort` | Sorts lines in a file alphabetically or numerically. | `sort names.txt` |
+| `wc` | Counts the number of lines, words, and characters (or bytes) in a file. It's useful for quickly checking the size or contents of a text file. | `wc file.txt` |
+| `uniq` | Removes or displays duplicate lines from a sorted file. It is commonly used to find unique entries in text data. | `uniq list.txt` |
+| `cut` | Extracts specific columns or fields from each line of a file. It's useful for working with structured text like CSV files or `/etc/passwd`. | `cut -d: -f1 /etc/passwd` |
+| `sed` | Edits text by searching and replacing words or patterns without opening the file in an editor. It is commonly used for automated text modifications. | `sed 's/http/https/g' file.txt` |
+| `awk` | Processes and analyzes text files by working with columns and patterns. It's commonly used to extract, filter, and format data. | `awk '{print $1}' file.txt` |
+| `xargs` | Converts input from standard input into command-line arguments for another command. It's useful for processing multiple files or items efficiently. | `cat list.txt \| xargs rm` |
 
 ---
 
