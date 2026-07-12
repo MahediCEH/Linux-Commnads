@@ -177,6 +177,7 @@ These commands help manage storage devices, mount filesystems, and create or ext
 | `tar` | Creates, extracts, or manages `.tar` archive files. | `tar -xvzf file.tar (extract), tar -czf backup.tar.gz Project/  (create zip)` |
 | `zip` | Compresses files and directories into a ZIP archive. | `zip files.zip file1.txt` |
 | `unzip` | Extracts files from a ZIP archive. | `unzip files.zip` |
+| `unzip` | Compress file. | `gzip backup.sql` |
 
 ---
 
