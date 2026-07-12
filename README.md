@@ -152,6 +152,7 @@ These commands help monitor running processes, manage system services, and displ
 | `env` | Displays all current environment variables. | `env` |
 | `export` | Creates or exports environment variables for the current shell session. | `export VAR=value` |
 | `alias` | Creates a shortcut for a command or command sequence. | `alias ll='ls -la'` |
+| `unalias` | Remove alias. | `unalias ll` |
 | `man` | Opens the manual page for a command. | `man ls` |
 | `whatis` | Displays a brief one-line description of a command. | `whatis nmap` |
 
