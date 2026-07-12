@@ -74,7 +74,7 @@ These commands are used to navigate the filesystem and perform common file and d
 | `locate` | Quickly finds files using a pre-built database. | `locate php.ini` |
 | `which` | Displays the location of an executable command in the system's PATH. | `which python3` |
 | `whereis` | Shows the binary, source code, and manual page locations of a command. | `whereis ssh` |
-| `file` | Identifies the actual file type regardless of its extension. | `file shell` |
+| `file` | Identifies the actual file type regardless of its extension. | `file image.png` |
 
 ---
 
