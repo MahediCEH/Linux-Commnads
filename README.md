@@ -27,11 +27,11 @@ Rather than simply memorizing commands, my goal is to understand:
 #### [📄 Text Processing & Viewing](#-3-text-processing--viewing)
 #### [👤 User & Permission Management](#-4-user--permission-management)
 #### [🌐 Networking & Firewalls](#-5-networking--firewalls)
-#### [⚙️ Process & System Information](#-6-process--system-information)
+#### [⚙️ Process & System Information](#%EF%B8%8F-6-process--system-information)
 #### [💾 Storage, Archive & Compression](#-7-storage-archive--compression)
 #### [🛡️ Security Tools](#-8-security-tools)
 #### [📂 Linux System Directories](#-9-linux-system-directories)
-#### [🖥️ General Linux Commands](#-10-general-linux-commands)
+#### [🖥️ General Linux Commands](#%EF%B8%8F-10-general-linux-commands)
 
 ---
 
