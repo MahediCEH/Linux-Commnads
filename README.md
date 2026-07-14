@@ -233,6 +233,7 @@ These are common cybersecurity and penetration testing tools frequently used in 
 | `ettercap` | Performs Man-in-the-Middle (MITM) attacks for testing the security of local networks. | `sudo ettercap -G` |
 | `aircrack-ng` | A suite of tools used to assess the security of Wi-Fi networks. | `aircrack-ng capture.cap` |
 | `hashcat` | A high-performance password recovery tool that cracks password hashes using CPUs or GPUs. | `hashcat -m 0 hashes.txt rockyou.txt` |
+| `dirb` | Brute-forces web directories and files to discover hidden content on a web server using a wordlist. Commonly used during web reconnaissance. | `dirb http://example.com/` |
 
 ---
 
