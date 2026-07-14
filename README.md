@@ -136,7 +136,7 @@ These commands are used to configure, troubleshoot, and secure network connectio
 | `traceroute` | Shows the path packets take from your computer to a destination host. | `traceroute google.com` |
 | `dig` | Retrieves detailed DNS information for a domain. | `dig example.com` |
 | `nslookup` | Queries DNS servers to obtain domain or IP address information. | `nslookup example.com` |
-| `curl` | Transfers data to or from a server using various protocols. Commonly used for testing APIs and downloading content. | `curl https://example.com` |
+| `curl` | Transfers data to or from a server using various protocols. Commonly used for testing APIs and downloading content. | `curl https://example.com, curl ifconfig.me` |
 | `wget` | Downloads files from the web using HTTP, HTTPS, or FTP. | `wget https://example.com/file.zip` |
 | `ssh` | Securely connects to a remote machine over SSH. | `ssh root@10.0.0.1` |
 | `ufw` | Manages firewall rules using Uncomplicated Firewall. | `sudo ufw enable` |
