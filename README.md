@@ -141,6 +141,14 @@ These commands are used to configure, troubleshoot, and secure network connectio
 | `ssh` | Securely connects to a remote machine over SSH. | `ssh root@10.0.0.1` |
 | `ufw` | Manages firewall rules using Uncomplicated Firewall. | `sudo ufw enable` |
 | `iptables` | Configures advanced Linux firewall and packet filtering rules. | `sudo iptables -L` |
+| `host` | Performs a quick DNS lookup to resolve domain names into IP addresses and retrieve DNS records. | `host google.com` |
+| `whois` | Displays domain registration details such as registrar, owner, and expiration date. | `whois openai.com` |
+| `arp` | Shows the local ARP table, mapping IP addresses to MAC addresses on the network. | `arp -a` |
+| `arp-scan` | Scans the local network to discover active devices using the ARP protocol. | `sudo arp-scan --localnet` |
+| `ip route` | Displays or manages the system's IP routing table using the modern `ip` command. | `ip route` |
+| `netdiscover` | Discovers live hosts and their IP/MAC addresses on a local network. | `sudo netdiscover` |
+| `tcpdump` | Captures and analyzes network packets directly from the command line. | `sudo tcpdump` |
+| `nc (Netcat)` | A versatile networking tool used for port testing, data transfer, and creating listeners or reverse shells. | `nc -lvnp 4444` |
 
 ---
 
