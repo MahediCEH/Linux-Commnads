@@ -32,8 +32,8 @@ Rather than simply memorizing commands, my goal is to understand:
 #### [🛡️ Security Tools](#%EF%B8%8F-8-security-tools)
 #### [📂 Linux System Directories](#-9-linux-system-directories)
 #### [🖥️ General Linux Commands](#%EF%B8%8F-10-general-linux-commands)
-#### [🔑 11. SSH & Remote Access](#%EF%B8%8F-10-general-linux-commands)
-#### [🔀 12. Python & Development](#%EF%B8%8F-10-general-linux-commands)
+#### [🔑 11. SSH & Remote Access](#-11-ssh--remote-access-1)
+#### [🔀 12. Python & Development](#-12-python--development-1)
 
 ---
 
