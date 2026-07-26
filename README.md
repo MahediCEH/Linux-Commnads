@@ -323,6 +323,8 @@ These commands are commonly used for Python development, package management, and
 | `pipx` | Installs and runs Python-based CLI applications in isolated environments. | `pipx install impacket` |
 | `git clone` | Downloads a Git repository to your local machine. | `git clone repo_url` |
 
+---
+
 ## 🎯 Purpose
 
 This project is part of my cybersecurity learning journey.
