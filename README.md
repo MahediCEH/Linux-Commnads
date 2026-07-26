@@ -176,6 +176,11 @@ These commands help monitor running processes, manage system services, and displ
 | `unalias` | Remove alias. | `unalias ll` |
 | `man` | Opens the manual page for a command. | `man ls` |
 | `whatis` | Displays a brief one-line description of a command. | `whatis nmap` |
+| `top` | Displays running processes and system resource usage in real time. | `top` |
+| `pkill` | Terminates processes by matching their name. | `pkill firefox` |
+| `jobs` | Lists jobs currently running or stopped in the background. | `jobs` |
+| `bg` | Resumes a suspended job in the background. | `bg` |
+| `fg` | Brings a background or suspended job to the foreground. | `fg` |
 
 ---
 
