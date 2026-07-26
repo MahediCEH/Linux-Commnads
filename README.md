@@ -298,6 +298,29 @@ These commands are commonly used for everyday Linux tasks, including terminal ma
 
 ---
 
+## 11. SSH & Remote Access
+
+These commands are used to securely connect to remote systems, authenticate with SSH keys, transfer files, and synchronize data between local and remote machines.
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `ssh-keygen` | Generates a new SSH public/private key pair for secure authentication. | `ssh-keygen` |
+| `ssh-copy-id` | Copies your SSH public key to a remote server for passwordless login. | `ssh-copy-id user@host` |
+| `rsync` | Efficiently synchronizes files and directories between local and remote systems. | `rsync -av dir host:/backup` |
+
+---
+
+## 12. Python & Development
+
+These commands are commonly used for Python development, package management, and downloading source code from Git repositories.
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `python3` | Starts the Python 3 interpreter to run scripts or interactive code. | `python3` |
+| `pip` | Installs, updates, and manages Python packages from PyPI. | `pip install requests` |
+| `pipx` | Installs and runs Python-based CLI applications in isolated environments. | `pipx install impacket` |
+| `git clone` | Downloads a Git repository to your local machine. | `git clone repo_url` |
+
 ## 🎯 Purpose
 
 This project is part of my cybersecurity learning journey.
