@@ -50,6 +50,12 @@ Package management commands are used to install, update, upgrade, remove, and ma
 | `apt update` | Updates the local package index from the configured repositories. It does not install or upgrade any packages. | `sudo apt update` |
 | `apt upgrade ` | Upgrades all installed packages to their latest available versions without asking for confirmation. | `sudo apt upgrade -y` |
 | `apt` | Debian-based package manager used to install, remove, search, and manage software packages. | `sudo apt install git` |
+| `apt search` | Searches the package repository for software matching a keyword. | `apt search nmap` |
+| `apt show` | Displays detailed information about a specific package. | `apt show curl` |
+| `apt autoremove` | Removes packages that are no longer needed by the system. | `sudo apt autoremove` |
+| `apt purge` | Completely removes a package along with its configuration files. | `sudo apt purge apache2` |
+| `dpkg -l` | Lists all packages currently installed on the system. | `dpkg -l` |
+| `dpkg -i` | Installs a local `.deb` package file manually. | `sudo dpkg -i app.deb` |
 
 ---
 
@@ -186,6 +192,11 @@ These commands help manage storage devices, mount filesystems, and create or ext
 | `zip` | Compresses files and directories into a ZIP archive. | `zip files.zip file1.txt` |
 | `unzip` | Extracts files from a ZIP archive. | `unzip files.zip` |
 | `unzip` | Compress file. | `gzip backup.sql` |
+| `lsblk` | Lists all storage devices, partitions, and mount points. | `lsblk` |
+| `fdisk` | Creates, deletes, or modifies disk partitions. | `sudo fdisk /dev/sda` |
+| `mount` | Mounts a storage device so it can be accessed. | `mount /dev/sdb1 /mnt` |
+| `umount` | Safely unmounts a mounted filesystem or storage device. | `umount /mnt` |
+| `dd` | Copies and clones disks, partitions, or disk images byte by byte. | `dd if=/dev/sda of=disk.img` |
 
 ---
 
